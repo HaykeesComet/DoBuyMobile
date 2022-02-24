@@ -1,0 +1,134 @@
+body {
+    background: url(imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #332200;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#card5 {
+    background: url(imgs/ph12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card6 {
+    background-color: #00308F;
+}
+
+#card7 {
+    background-color: #00151A;
+}
+
+#card8 {
+    background: url(imgs/ph13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card9 {
+    background-color: #000000;
+}
+
+#card10 {
+    background: url(imgs/ph11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ph2 {
+    margin-top: -35px;
+}
+
+#ph3 {
+    margin-top: -35px;
+}
+
+#ph4 {
+    margin-top: -35px;
+}
+
+#home {
+    margin-top: -70px;
+}
+
+#about {
+    margin-top: -70px;
+}
+
+#shop {
+    margin-top: -70px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(230,115,0);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #mainNavbar .nav-link {
+    font-size: 1.25rem;
+    }
+    #mainNavbar .navbar-brand {
+    font-size: 1.25rem;
+    }
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    .blurb p {
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+}
+
+
+
+
